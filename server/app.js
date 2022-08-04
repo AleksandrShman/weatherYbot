@@ -7,7 +7,7 @@ const app = express()
 const morgan = require('morgan')
 const path = require('path')
 
-const list = [];
+// const list = [];
 
 const PORT = process.env.PORT ?? 3000;
 
