@@ -19,6 +19,7 @@
     "sequelize-cli": "^6.4.1"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "bcrypt-salt": "^1.1.12",
     "connect": "^3.7.0",
@@ -27,11 +28,14 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-session": "^1.17.3",
+    "fetch": "^1.1.0",
     "morgan": "^1.10.0",
+    "node-telegram-bot-api": "^0.58.0",
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "redis": "^4.2.0",
     "sequelize": "^6.21.3",
-    "session": "^0.1.0"
+    "session": "^0.1.0",
+    "telegraf": "^4.8.6"
   }
 }
