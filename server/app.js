@@ -22,7 +22,7 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', function (req, res) {
+app.get('/', function (req, res) {// ручка для дублирования отдаваемой информации
   const data = list;
   res.send(JSON.stringify(data));
 });
